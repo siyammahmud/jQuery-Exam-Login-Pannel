@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JQuery Facebook Black LogIn Pannel</title>
+	<meta name="description" content="">	
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<div class="login">
+				<form class="form" method="post" action="#">
+					<img src="images/facebook.jpg" class="img-responsive img-circle">
+					<input id="mail" class="mail" type="email" action="post" name="mail" placeholder="Email/Username"><br>
+					<input id="pass" class="pass" type="password" name="pass" placeholder="Password">
+
+					<span>Password strength :</span>
+					<span ><b id="strength"></b></span><br>
+					<button class="btn btn-md" id="btn">Submit</button><br>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script
+	src="https://code.jquery.com/jquery-3.1.1.min.js"
+	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	crossorigin="anonymous"></script>
+	<!-- Customized js -->
+	<script src="js/myscript.js"></script>
+</body>
+</html>
